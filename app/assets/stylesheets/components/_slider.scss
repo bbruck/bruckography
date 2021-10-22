@@ -1,0 +1,46 @@
+// html, body { height: 100%; }
+
+// body {
+//   margin: 0 auto;
+// }
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  background: white no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  cursor: pointer;;
+  color: white;
+}
+
+.slide__label {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 120px;
+  font-family: "Helvetica", "Arial", sans;
+  font-weight: 900;
+  font-size: 64px;
+  backdrop-filter: blur(5px);
+}
+
+.slide:nth-of-type(1) {
+  background-image: url("https://31.media.tumblr.com/44879df24a13830d638fea3f404ac176/tumblr_mrrairMMi41st5lhmo1_1280.jpg");
+}
+
+.slide:nth-of-type(2) {
+  background-image: url("https://31.media.tumblr.com/948c60c36c406d9a340232832fd48137/tumblr_mrraktQTCS1st5lhmo1_1280.jpg");
+}
+
+.slide:nth-of-type(3) {
+  background-image: url("https://31.media.tumblr.com/396a4f4686680c2dbae56cf7ddbaca0a/tumblr_mrragzKOHm1st5lhmo1_1280.jpg");
+}
+
+.slide:nth-of-type(4) {
+  background-image: url("https://31.media.tumblr.com/261c2c8c1dd0a69740da72b2f95b1468/tumblr_mrran4OzSm1st5lhmo1_1280.jpg");
+}
+
+.slide:nth-of-type(5) {
+  background-image: url("https://24.media.tumblr.com/828ea0db2c219e06a3974a02ac650e72/tumblr_mrraevBLsP1st5lhmo1_1280.jpg");
+}

@@ -1,14 +1,25 @@
-<%= render 'shared/banner' %>
+<%= render 'shared/slider' %>
 
 <div class="container">
   <%# <div class="welcome">
     <h1>Welcome to Bruckography</h1>
     <p>Soon you'll find a selection of my favourite pictures here.</p>
   </div> %>
+  <div class="home-sections">
+    <div class="home-section1">
+      <div>
+        <h2>Nature & Landscape</h2>
+      </div>
 
-  <div class="home-section1">
+      <div class="home-images">
+        <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+        <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+        <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+      </div>
+    </div>
+
     <div>
-      <h2>Nature & Landscape</h2>
+      <h2>People & Lifestyle</h2>
     </div>
 
     <div class="home-images">
@@ -16,25 +27,15 @@
       <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
       <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
     </div>
-  </div>
 
-  <div>
-    <h2>People & Lifestyle</h2>
-  </div>
+    <div>
+      <h2>Art & Culture</h2>
+    </div>
 
-  <div class="home-images">
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
-  </div>
-
-   <div>
-    <h2>Art & Culture</h2>
-  </div>
-
-  <div class="home-images">
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
-    <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+    <div class="home-images">
+      <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+      <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+      <%= cl_image_tag("börgerende_web_lbdgil", width: 350, crop: :fill) %>
+    </div>
   </div>
 </div>
