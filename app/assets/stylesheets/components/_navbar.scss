@@ -8,9 +8,24 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 160px;
+  width: 140px;
 }
 
 .nav-item {
   display: flex;
+  height: 2.6em;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin-right: 80px;
+  width: 20vw;
+  font-size: large;
+}
+
+.nav-link-login{
+  border-radius: 0 !important;
+  width: 100px;
 }
