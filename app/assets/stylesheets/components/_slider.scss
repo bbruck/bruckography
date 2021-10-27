@@ -1,24 +1,19 @@
-// html, body { height: 100%; }
-
-// body {
-//   margin: 0 auto;
-// }
-
 .slide {
-  width: 100%;
+  width: auto;
   height: 100vh;
   background: white no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  cursor: pointer;;
+  cursor: pointer;
   color: white;
+  object-fit: cover;
 }
 
 .slide__label {
   position: absolute;
   width: 100%;
   bottom: 0;
-  padding: 120px;
+  // padding: 120px;
   font-family: "Helvetica", "Arial", sans;
   font-weight: 900;
   font-size: 64px;
