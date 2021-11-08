@@ -24,6 +24,7 @@ gem 'redis', '~> 4.0'
 # Use Cloudinary for image storing
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.21'
+gem 'lightbox-bootstrap-rails', '5.1.0.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
