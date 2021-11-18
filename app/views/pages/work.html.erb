@@ -1,41 +1,75 @@
-<div class="gallery-container">
-  <div class="tz-gallery">
+<section id="gallery">
+  <div class="container">
+    <div id="image-gallery">
       <div class="row">
-        <div class="col-sm-12 col-md-4">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
-          </a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://res.cloudinary.com/dgn2rtpsl/image/upload/v1634741286/bo%CC%88rgerende_web_lbdgil.jpg">
+              <%= cl_image_tag("börgerende_web_lbdgil", class:"img-responsive", crop: :fill) %> </a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
-          </a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/600"><img src="https://unsplash.it/600" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
-          </a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/700"><img src="https://unsplash.it/700" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-8">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
-          </a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/800"><img src="https://unsplash.it/800" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
-          </a>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/900"><img src="https://unsplash.it/900" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-          <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
-            <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
-          </a>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/1000"><img src="https://unsplash.it/1000" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/1100"><img src="https://unsplash.it/1100" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+          <div class="img-wrapper">
+            <a href="https://unsplash.it/1200"><img src="https://unsplash.it/1200" class="img-responsive"></a>
+            <div class="img-overlay">
+              <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div><!-- End row -->
+    </div><!-- End image gallery -->
+  </div><!-- End container -->
+</section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
+<%= javascript_pack_tag 'lightbox' %>
