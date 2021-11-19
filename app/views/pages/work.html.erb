@@ -1,3 +1,8 @@
+<% @work.photos.each do |photo| %>
+  <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+<% end %>
+
+
 <section id="gallery">
   <%# <div class="container"> %>
     <div id="image-gallery">
