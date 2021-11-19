@@ -11,7 +11,11 @@ class WorkController < ApplicationController
   def create
     @work = Work.new(work_params)
     @work.save
-    redirect_to work_path
+    if @work.save!
+      redirect_to work_path
+    else
+      render :new
+    end
   end
 
   private
